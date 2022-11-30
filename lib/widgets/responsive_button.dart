@@ -12,11 +12,11 @@ class ResponsiveButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         decoration: BoxDecoration(
-          color: Color.fromARGB(132, 87, 91, 95),
+          color: Color.fromARGB(132, 85, 101, 118),
           borderRadius: BorderRadius.circular(10),
         ),
         width: width,
-        height: 50,
+        height: 60,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
